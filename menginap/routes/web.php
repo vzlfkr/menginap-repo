@@ -25,5 +25,5 @@ Route::group(['prefix' => '/register'], function(){
     Route::get('/{id}', [UsersController::class, 'show'])-> name('user.show');
     Route::get('/{id}/edit', [UsersController::class, 'edit'])-> name('user.edit');
     // Route::put('/{id}', [UsersController::class, 'update'])-> name('user.update');
-    // Route::delete('/{id}', [UsersController::class, 'destroy'])-> name('user.destroy');
+    /// Route::delete('/{id}', [UsersController::class, 'destroy'])-> name('user.destroy');
 });
