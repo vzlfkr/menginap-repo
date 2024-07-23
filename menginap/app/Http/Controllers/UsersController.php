@@ -37,7 +37,8 @@ class UsersController extends Controller
             $validateData = $request -> validate([
                 'name' => 'required|string|min:3|max:255',
                 'email' => 'required|email|unique:users,email',
-                'password' => 'required|string|min:8'
+                'password' => 'required|string|min:8',
+                'noHp' => 'required|string|min:8',
             ]);
             User::create($validateData);
 
@@ -45,7 +46,7 @@ class UsersController extends Controller
             // $user_data = User::create($validateData);
             // dd($user_data);
 
-            return redirect('/register')-> with('message', 'new user has been created');
+            return redirect('/login')-> with('message', 'new user has been created');
         } catch(ValidationException $e){
             return back()->withErrors($e->getMessage())->withInput();
         } catch(Exception $e){

@@ -27,3 +27,7 @@ Route::group(['prefix' => '/register'], function(){
     // Route::put('/{id}', [UsersController::class, 'update'])-> name('user.update');
     // Route::delete('/{id}', [UsersController::class, 'destroy'])-> name('user.destroy');
 });
+
+Route::get('/login', function () {
+    return view('/user/login');
+});
