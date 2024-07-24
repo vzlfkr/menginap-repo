@@ -17,7 +17,10 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    public const HOME = '/home';
+    //aslinya
+    // public const HOME = '/home';
+    //pake url web.php
+     public const HOME = '/';
 
     /**
      * Define your route model bindings, pattern filters, and other route configuration.

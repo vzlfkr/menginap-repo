@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => '/register'], function(){
-    Route::get('/', [UsersController::class, 'index'])-> name('user.index');
+    Route::get('/', [UsersController::class, 'index'])-> name('user.index')->middleware('guest');
     Route::get('/create', [UsersController::class, 'create'])-> name('user.create');
     Route::post('/', [UsersController::class, 'store'])-> name('user.store');
     Route::get('/{id}', [UsersController::class, 'show'])-> name('user.show');
@@ -28,6 +29,6 @@ Route::group(['prefix' => '/register'], function(){
     // Route::delete('/{id}', [UsersController::class, 'destroy'])-> name('user.destroy');
 });
 
-Route::get('/login', function () {
-    return view('/user/login');
-});
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
