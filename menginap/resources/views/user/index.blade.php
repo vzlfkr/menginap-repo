@@ -45,7 +45,7 @@ style="background-image: url('../image/registerBG.png');">
               </div>
 
               <div data-mdb-input-init class="form-outline mb-4">
-                <input type="password" name="password" id="password" class="form-control form-control-lg @error('password') is-invalid @enderror" value="{{ old('password') }}" />
+                <input type="password" name="password" id="password" class="form-control form-control-lg @error('password') is-invalid @enderror"/>
                 <label class="form-label" for="password">Password</label>
                 @error('password')
                   <div class="invalid-feedback">

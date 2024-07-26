@@ -32,8 +32,7 @@ class UsersController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {
-        try{
+    {        
             $validateData = $request -> validate([
                 'name' => 'required|string|min:3|max:255',
                 'email' => 'required|email|unique:users,email',
@@ -46,12 +45,7 @@ class UsersController extends Controller
             // $user_data = User::create($validateData);
             // dd($user_data);
 
-            return redirect('/login')-> with('message', 'new user has been created');
-        } catch(ValidationException $e){
-            return back()->withErrors($e->getMessage())->withInput();
-        } catch(Exception $e){
-            return back()-> with('error', 'failed to create new user')->withInput();
-        }
+            return redirect('/login')-> with('message', 'new user has been created');        
     }
 
     /**
