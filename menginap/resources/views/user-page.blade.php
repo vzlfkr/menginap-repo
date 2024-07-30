@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/navbar-log.css">
     <link rel="stylesheet" href="/css/user-page.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <script src="https://kit.fontawesome.com/bf51598d13.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -38,6 +39,7 @@
             </div>
         </div>
     </section>
+    @include('components.footer')
 </body>
 
 </html>
