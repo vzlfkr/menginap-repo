@@ -18,6 +18,7 @@
                 <div class="headline-txt">
                     <h1>Bali</h1>
                     <p>Explore the beauty of rice fields view through a staycation</p>
+                    <h2>alooo</h2>
                 </div>
             </div>
             <div class="txt-div">
