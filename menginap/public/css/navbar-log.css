@@ -1,3 +1,7 @@
+header{
+    width: 100vw;
+}
+
 nav {
     position: fixed;
     z-index: 2;
@@ -8,6 +12,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.25);
 }
 
 /* Left Navbar */
@@ -82,8 +87,13 @@ nav img {
 }
 
 /* Right Navbar */
-.right-nav{
+.right-nav-case{
     width: 20%;
+    height: 100%;
+}
+
+.right-nav{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -103,6 +113,44 @@ nav img {
 }
 
 .right-nav:hover{
-    cursor: pointer;
     scale: 1.1;
+}
+
+.right-nav-case:hover .dropdown{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdown button{
+    width: 100%;
+    height: 40%;
+    background-color: transparent;
+    border: none;
+}
+
+.my-profile:hover{
+    cursor: pointer;
+    background-color: #597445;
+    color: white;
+}
+
+.logout{
+    color: rgb(250, 119, 119);
+}
+
+.logout:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(255, 85, 85);
+}
+
+.dropdown{
+    display: none;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+    height: 150px;
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.20);
 }
