@@ -8,8 +8,7 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.25);
-
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.25);;
 }
 
 /* Left Navbar */
@@ -26,7 +25,7 @@ nav {
 
 .left-nav:hover{
     cursor: pointer;
-    scale: 0.80;
+    scale: 0.8;
 }
 
 nav img {
@@ -89,28 +88,22 @@ nav img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
+    transition: 150ms;
+    height: 100%;
 }
 
-.right-nav button{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
+.right-nav i{
     color: #597445;
-    padding: 13px 38px;
-    background-color: transparent;
-    border-style: none;
-    border-radius: 5px;
+    margin-right: 18px;
 }
 
-.right-nav button:hover{
+.right-nav h1 {
+    color: #597445;
+    font-size: 18px;
+}
+
+.right-nav:hover{
     cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    padding: 13px 38px;
-    background-color: #597445;
-    border-style: none;
-    border-radius: 5px;
+    scale: 1.1;
 }
