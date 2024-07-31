@@ -10,14 +10,21 @@
             <a href="#" id="about-us">About Us</a>
         </div>
         <div class="right-nav-case">
+            @auth
             <div class="right-nav">
                 <i class="fa-solid fa-user fa-2x"></i>
                 <h1>Profile</h1>
             </div>
             <div class="dropdown">
-                <button class="my-profile">My Profile</button>
-                <button class="logout">Logout</button>
+                <button class="my-profile" onclick="window.location.href=''">My Profile</button>
+                <button class="logout" onclick="window.location.href=''">Logout</button>
             </div>
+            @else
+            <div class="right-nav">
+                <button>Sign In</button>
+                <button>Register</button>
+            </div>
+            @endauth
         </div>
     </nav>
 </header>

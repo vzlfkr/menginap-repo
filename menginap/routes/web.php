@@ -19,9 +19,9 @@ Route::get('/', function () {
     return view('home');
 });
 
-// Route::get('/profile', function () {
-//     return view('user-page');
-// });
+Route::get('/profile', function () {
+    return view('user-page');
+});
 Route::group(['prefix' => '/register'], function(){
     Route::get('/', [UsersController::class, 'index'])-> name('user.index')->middleware('guest');
     Route::get('/create', [UsersController::class, 'create'])-> name('user.create');
