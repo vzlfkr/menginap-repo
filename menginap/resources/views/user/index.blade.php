@@ -8,6 +8,8 @@
   {{-- <link rel="stylesheet" href="/css/style.css"> --}}
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="stylesheet" href="/css/register.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <script src="https://kit.fontawesome.com/bf51598d13.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -17,7 +19,7 @@
 style="background-image: url('../image/registerBG.png');">
 <div class="mask d-flex align-items-center h-100 gradient-custom-3">
   <div class="container h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100 mt-5">
       <div class="col-12 col-md-9 col-lg-7 col-xl-6">
         <div class="card" style="border-radius: 15px;">
           <div class="card-body p-5">
@@ -82,6 +84,7 @@ style="background-image: url('../image/registerBG.png');">
   </div>
 </div>
 </section>
+@include('components.footer')
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
