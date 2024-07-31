@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/navbar-log.css">
     <link rel="stylesheet" href="/css/footer.css">
     <script src="https://kit.fontawesome.com/bf51598d13.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/navbar.css">
     <title>Menginap</title>
 </head>
 
