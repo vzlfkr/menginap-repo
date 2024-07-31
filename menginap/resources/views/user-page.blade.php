@@ -37,7 +37,30 @@
                 @endauth
             </div>
             <div class="div-3">
-                <img src="/image/img-placeholder-square.jpg" alt="Profile Placeholder">
+                @if(auth()->user()->image)
+                    <img src="{{ asset('images/' . auth()->user()->image) }}" alt="Profile Image" class="img-thumbnail">
+                @else
+                    <img src="/image/img-placeholder-square.jpg" alt="Profile Placeholder">
+                @endif
+            </div>
+            <div class="div-8">
+                <form action="{{ route('user.update', auth()->user()->id) }}" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    @method('PUT')
+    
+                    <!-- Image Upload Field -->
+                    <div class="form-group">
+                        <label for="image">Profile Image</label>
+                        <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image">
+                        @error('image')
+                        <div class="invalid-feedback">
+                            {{ $message }}
+                        </div>
+                        @enderror
+                    </div>
+    
+                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                </form>
             </div>
         </div>
     </section>
