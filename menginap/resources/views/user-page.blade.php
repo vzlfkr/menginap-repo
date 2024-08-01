@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/user-page.css">
     <link rel="stylesheet" href="/css/footer.css">
     <script src="https://kit.fontawesome.com/bf51598d13.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Profile || Menginap</title>
 </head>
 
 <body>
@@ -37,30 +37,33 @@
                 @endauth
             </div>
             <div class="div-3">
-                @if(auth()->user()->image)
+                <div class="div-img">
+                    @if(auth()->user()->image)
                     <img src="{{ asset('images/' . auth()->user()->image) }}" alt="Profile Image" class="img-thumbnail">
                 @else
                     <img src="/image/img-placeholder-square.jpg" alt="Profile Placeholder">
                 @endif
-            </div>
-            <div class="div-8">
-                <form action="{{ route('user.update', auth()->user()->id) }}" method="POST" enctype="multipart/form-data">
-                    @csrf
-                    @method('PUT')
-    
-                    <!-- Image Upload Field -->
-                    <div class="form-group">
-                        <label for="image">Profile Image</label>
-                        <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image">
-                        @error('image')
-                        <div class="invalid-feedback">
-                            {{ $message }}
+                <div class="div-8">
+                    <form action="{{ route('user.update', auth()->user()->id) }}" method="POST" enctype="multipart/form-data">
+                        @csrf
+                        @method('PUT')
+
+                        <!-- Image Upload Field -->
+                        <div class="form-group">
+                            {{-- <label for="image">Profile Image</label> --}}
+                            <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image">
+    <label for="image"></label>
+    @error('image')
+                            <div class="invalid-feedback">
+                                {{ $message }}
+                            </div>
+                            @enderror
                         </div>
-                        @enderror
-                    </div>
-    
-                    <button type="submit" class="btn btn-primary">Update Profile</button>
-                </form>
+
+                        <button type="submit" class="btn btn-primary">Apply Change</button>
+                    </form>
+                </div>
+                </div>
             </div>
         </div>
     </section>

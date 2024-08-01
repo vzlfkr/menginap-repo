@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <div class="left-nav" onclick="window.location.href='/#'  ">
+        <div class="left-nav" onclick="window.location.href='/'  ">
             <img src="/image/menginap-logo.png" alt="Menginap Logo Home">
             <h1>MENGINAP</h1>
         </div>
