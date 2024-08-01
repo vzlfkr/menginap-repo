@@ -38,6 +38,7 @@ class UsersController extends Controller
                 'email' => 'required|email|unique:users,email',
                 'password' => 'required|string|min:8',
                 'noHp' => 'required|string|min:8',
+                'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             ]);
             User::create($validateData);
 
@@ -64,15 +65,38 @@ class UsersController extends Controller
         $viewData = [
             'user' => User::findOrFail($id),
         ];
-        return view('user.edit', $viewData);
+        return view('user-page', $viewData);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, User $user)
-    {
-        //
+    public function update(Request $request, $id)
+    {        
+        // Find the user record
+        $user = User::findOrFail($id);
+
+        // Validate the request
+        $request->validate([
+            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+        ]);
+
+        // Check if an image is uploaded
+        if ($request->hasFile('image')) {
+            // Get the uploaded file
+            $image = $request->file('image');
+            // Generate a unique name for the image
+            $imageName = time() . '.' . $image->getClientOriginalExtension();
+            // Move the image to the public/images directory
+            $image->move(public_path('images'), $imageName);
+            // Save the image path to the user's record
+            $user->image = $imageName;
+            // Save the user record with the new image path
+            $user->save();
+        }
+
+        // Redirect back with a success message
+        return redirect()->route('user.edit', ['id' => $user->id])->with('success', 'Profile image updated successfully.');
     }
 
     /**
