@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/about.css">
     <script src="https://kit.fontawesome.com/bf51598d13.js" crossorigin="anonymous"></script>
     <title>Menginap</title>
 </head>
@@ -32,6 +33,7 @@
                 </div>
             </div>
         </div>
+        @include('about')
     </section>
 </body>
 
