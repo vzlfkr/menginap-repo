@@ -6,7 +6,7 @@
         </div>
         <div class="center-nav">
             <a href="/" id="home">Home</a>
-            <a href="#" id="hotel-list">Hotel List</a>
+            <a href="/list" id="hotel-list">Hotel List</a>
             <a href="#" id="about-us">About Us</a>
         </div>
         <div class="right-nav">
