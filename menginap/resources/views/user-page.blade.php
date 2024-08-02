@@ -50,10 +50,8 @@
 
                         <!-- Image Upload Field -->
                         <div class="form-group">
-                            {{-- <label for="image">Profile Image</label> --}}
                             <input type="file" class="form-control @error('image') is-invalid @enderror" id="image" name="image">
-    <label for="image"></label>
-    @error('image')
+                            @error('image')
                             <div class="invalid-feedback">
                                 {{ $message }}
                             </div>
