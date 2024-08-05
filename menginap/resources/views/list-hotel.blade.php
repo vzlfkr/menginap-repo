@@ -78,6 +78,132 @@
                 <h3>Hotel Batur</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
             </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+            <div class="hotel-card">
+                <img src="https://via.placeholder.com/200x150" alt="Hotel Ubud">
+                <h3>Hotel Batur</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+            </div>
+
         </div>
     </section>
     @include('components.footer-list')
