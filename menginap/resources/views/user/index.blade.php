@@ -16,7 +16,7 @@
 
 @include('components.navbar')
 <section class="vh-100 bg-image"
-style="background-image: url('../image/registerBG.png'); object-fit: contain;">
+style="background-image: url('../image/registerBG.png'); background-size: cover">
 <div class="mask d-flex align-items-center h-100 gradient-custom-3">
   <div class="container h-100">
     <div class="row d-flex justify-content-center align-items-center h-100 mt-5">

@@ -34,6 +34,7 @@
             </div>
         </div>
         @include('about')
+        @include('components.footer')
     </section>
 </body>
 
