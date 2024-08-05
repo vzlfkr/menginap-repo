@@ -15,7 +15,7 @@
 
 @include('components.navbar')
 <section class="vh-100 bg-image"
-style="background-image: url('/image/login-img.png');">
+style="background-image: url('/image/login-img.png'); object-fit: contain;">
 <div class="mask d-flex align-items-center h-100 gradient-custom-3">
   <div class="container h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
@@ -57,7 +57,7 @@ style="background-image: url('/image/login-img.png');">
     </div>
   </div>
 </div>
-</section>
+</section>>
 @include('components.footer')
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
