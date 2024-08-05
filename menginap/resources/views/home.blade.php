@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    @include('components.navbar-no-reg')
+    @include('components.navbar')
     <section>
         <div class="headline">
             <div class="img-div">

@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="/css/list-style.css">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/app.css">
-    <link rel="stylesheet" href="/css/navbar-no-reg.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer-list.css">
 </head>
 <body>
-@include('components.navbar-no-reg')
+@include('components.navbar')
     <div class="header">
         <div class="slider">
             <div class="slide active">
@@ -79,6 +80,7 @@
             </div>
         </div>
     </section>
+    @include('components.footer-list')
     <script src="js/list-script.js"></script>
 </body>
 </html>
