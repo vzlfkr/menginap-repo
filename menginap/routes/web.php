@@ -1,7 +1,9 @@
 <?php
 
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\UsersController;
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,7 +23,8 @@ Route::get('/', function () {
 
 Route::get('/profile', function () {
     return view('user-page');
-});
+})->middleware('auth');
+
 Route::group(['prefix' => '/register'], function(){
     Route::get('/', [UsersController::class, 'index'])-> name('user.index')->middleware('guest');
     Route::get('/create', [UsersController::class, 'create'])-> name('user.create');
@@ -35,6 +38,10 @@ Route::group(['prefix' => '/register'], function(){
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
-Route::get('/list', function () {
-    return view('list-hotel');
-});
+Route::get('/list', [PostController::class, 'index']);
+
+Route::get('/admin', function () {
+    return view('admin.index');
+})->name('postHotel')->middleware('can:admin');
+Route::get('/posts/create', [PostController::class, 'create'])->name('posts.create')->middleware('can:admin');
+Route::post('/posts', [PostController::class, 'store'])->name('posts.store')->middleware('can:admin');

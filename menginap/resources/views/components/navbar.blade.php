@@ -18,6 +18,11 @@
             <div class="dropdown">
                 <button class="my-profile" onclick="window.location.href='/profile'">My Profile</button>
                 <button class="logout" onclick="window.location.href='{{ route('logout') }}'">Logout</button>
+
+                @can('admin')
+                <button class="logout" onclick="window.location.href='{{ route('postHotel') }}'">Post hotel</button>
+                @endcan
+
             </div>
             @else
             <div class="right-nav right-nav-2">
