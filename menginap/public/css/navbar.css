@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     width: 100vw;
 }
 
@@ -37,14 +37,14 @@ nav {
     transition: 150ms;
 }
 
-.left-nav:hover{
+.left-nav:hover {
     cursor: pointer;
     scale: 0.8;
 }
 
-.left-nav h1{
+.left-nav h1 {
     margin: 0;
-font-weight: bold;
+    font-weight: bold;
 }
 
 nav img {
@@ -102,12 +102,12 @@ nav img {
 }
 
 /* Right Navbar */
-.right-nav-case{
+.right-nav-case {
     width: 20%;
     height: 100%;
 }
 
-.right-nav{
+.right-nav {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -117,7 +117,7 @@ nav img {
     height: 100%;
 }
 
-.right-nav button{
+.right-nav button {
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
@@ -128,7 +128,7 @@ nav img {
     border-radius: 5px;
 }
 
-.right-nav button:hover{
+.right-nav button:hover {
     cursor: pointer;
     text-decoration: none;
     font-size: 16px;
@@ -140,7 +140,7 @@ nav img {
     border-radius: 5px;
 }
 
-.right-nav i{
+.right-nav i {
     color: #597445;
     margin-right: 18px;
 }
@@ -150,45 +150,55 @@ nav img {
     font-size: 18px;
 }
 
-.right-nav-1:hover{
+.right-nav-1:hover {
     scale: 1.1;
 }
 
-.right-nav-case:hover .dropdown{
+.right-nav-case:hover .dropdown {
     display: block;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.dropdown button{
+.dropdown button {
     width: 100%;
     height: 40%;
     background-color: transparent;
     border: none;
 }
 
-.my-profile:hover{
+.my-profile:hover {
     cursor: pointer;
     background-color: #597445;
     color: white;
 }
 
-.logout{
+.logout {
     color: rgb(250, 119, 119);
 }
 
-.logout:hover{
+.logout:hover {
     cursor: pointer;
     color: white;
     background-color: rgb(255, 85, 85);
 }
 
-.dropdown{
+.admin {
+    color: #bda124;
+}
+
+.admin:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #bda124;
+}
+
+.dropdown {
     display: none;
     z-index: 1;
     width: 100%;
     background-color: white;
     height: 150px;
-    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 35px 35px rgba(0, 0, 0, 0.2);
 }

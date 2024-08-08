@@ -32,7 +32,7 @@ class UsersController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {        
+    {
             $validateData = $request -> validate([
                 'name' => 'required|string|min:3|max:255',
                 'email' => 'required|email|unique:users,email',
@@ -46,7 +46,7 @@ class UsersController extends Controller
             // $user_data = User::create($validateData);
             // dd($user_data);
 
-            return redirect('/login')-> with('message', 'new user has been created');        
+            return redirect('/login')-> with('message', 'new user has been created');
     }
 
     /**
@@ -72,7 +72,7 @@ class UsersController extends Controller
      * Update the specified resource in storage.
      */
     public function update(Request $request, $id)
-    {        
+    {
         // Find the user record
         $user = User::findOrFail($id);
 

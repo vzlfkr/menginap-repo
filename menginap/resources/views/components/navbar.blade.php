@@ -11,24 +11,24 @@
         </div>
         <div class="right-nav-case">
             @auth
-            <div class="right-nav right-nav-1">
-                <i class="fa-solid fa-user fa-2x"></i>
-                <h1>Profile</h1>
-            </div>
-            <div class="dropdown">
-                <button class="my-profile" onclick="window.location.href='/profile'">My Profile</button>
-                <button class="logout" onclick="window.location.href='{{ route('logout') }}'">Logout</button>
+                <div class="right-nav right-nav-1">
+                    <i class="fa-solid fa-user fa-2x"></i>
+                    <h1>Profile</h1>
+                </div>
+                <div class="dropdown">
+                    <button class="my-profile" onclick="window.location.href='/profile'">My Profile</button>
+                    <button class="logout" onclick="window.location.href='{{ route('logout') }}'">Logout</button>
 
-                @can('admin')
-                <button class="logout" onclick="window.location.href='{{ route('postHotel') }}'">Post hotel</button>
-                @endcan
+                    @can('admin')
+                        <button class="admin" onclick="window.location.href='{{ route('postHotel') }}'">Post hotel</button>
+                    @endcan
 
-            </div>
+                </div>
             @else
-            <div class="right-nav right-nav-2">
-                <button onclick="window.location.href='/login'">Sign In</button>
-                <button onclick="window.location.href='/register'">Register</button>
-            </div>
+                <div class="right-nav right-nav-2">
+                    <button onclick="window.location.href='/login'">Sign In</button>
+                    <button onclick="window.location.href='/register'">Register</button>
+                </div>
             @endauth
         </div>
     </nav>
