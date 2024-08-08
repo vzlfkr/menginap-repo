@@ -1,16 +1,15 @@
 .headline {
-    position: absolute;
     width: 100vw;
     height: 1080px;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
-
+/* Zulfikar is ganteng */
 .img-div {
     position: relative;
     width: 100%;
     height: 642px;
-    background-color: aqua;
 }
 
 .img-div img {

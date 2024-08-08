@@ -1,0 +1,11 @@
+kalau gk bisa composer install,ada masalh di folder php
+buka terminal ketik "php --ini"
+uncoment:
+extension=fileinfo
+extension=gd
+extension=mbstring
+extension=mysqli
+extension=odbc
+extension=openssl
+extension=pdo_mysql
+upload_max_filesize = 10M
