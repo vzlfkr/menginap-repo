@@ -14,20 +14,17 @@
 @include('components.navbar')
     <div class="header">
         <div class="slider">
+            @foreach ($posts as $post)
             <div class="slide active">
-                <img src="https://via.placeholder.com/800x300" alt="Hotel Ubud">
+                @if($post->image_post)
+                    <img src="{{ asset('images/' . $post->image_post) }}" alt="{{ $post->title }}" >
+                @endif
                 <div class="caption">
-                    <h2>Hotel Ubud</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
+                    <h2>{{ $post->title }}</h2>
+                    <p>{{ $post->body }}</p>
                 </div>
             </div>
-            <div class="slide active">
-                <img src="https://via.placeholder.com/800x300" alt="Hotel Ubud">
-                <div class="caption">
-                    <h2>Hotel Canggu</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in vestibulum dui.</p>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
     <section class="hotels">
@@ -36,12 +33,12 @@
             @foreach ($posts as $post)
             <div class="hotel-card">
                 @if($post->image_post)
-                    <img src="{{ asset('images/' . $post->image_post) }}" alt="{{ $post->title }}" style="max-width: 100%; height: auto;">
+                    <img src="{{ asset('images/' . $post->image_post) }}" alt="{{ $post->title }}">
                 @endif
                 <h3>{{ $post->title }} </a></h3>
                 <p>{{ $post->body }}</p>
             </div>
-            @endforeach            
+            @endforeach
         </div>
     </section>
     @include('components.footer-list')

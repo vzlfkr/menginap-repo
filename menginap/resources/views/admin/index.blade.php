@@ -14,7 +14,7 @@
 <body>
   {{-- @include('components.navbar') --}}
   <div class="col-md-6 offset-md-3 mt-5">
-     <form accept-charset="UTF-8" action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data" target="_blank">
+     <form accept-charset="UTF-8" action="{{ route('posts.store') }}" method="POST" enctype="multipart/form-data">
       @csrf
        <div class="form-group">
          <label for="title">hotel name</label>
