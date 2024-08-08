@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/home.css">
     <link rel="stylesheet" href="/css/app.css">
-    <link rel="stylesheet" href="/css/navbar-no-reg.css">
-    <link rel="stylesheet" href="/css/navbar-log.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/about.css">
     <script src="https://kit.fontawesome.com/bf51598d13.js" crossorigin="anonymous"></script>
     <title>Menginap</title>
 </head>
 
 <body>
-    @include('components.navbar-log')
+    @include('components.navbar')
     <section>
         <div class="headline">
             <div class="img-div">
@@ -33,6 +33,8 @@
                 </div>
             </div>
         </div>
+        @include('about')
+        @include('components.footer')
     </section>
 </body>
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
 section {
     position: absolute;
     width: 100vw;
@@ -19,24 +21,26 @@ section {
 
 .div-2 {
     width: 60%;
-    height: 100%; /* Ensure div-2 fills the height of its parent */
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 .div-3 {
     width: 40%;
-    height: 100%; /* Ensure div-3 fills the height of its parent */
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: end;
+    margin-top: -5%;
 }
 
 .div-3 img{
 object-fit: contain;
 width: 200px;
+height: 200px;
 border-radius: 50%;
 }
 
@@ -46,12 +50,13 @@ border-radius: 50%;
 .div-6,
 .div-7 {
     width: 100%;
-    height: 25%;
-
+    height: 15%;
 }
 
-.div-4 {
-
+.div-5,
+.div-6,
+.div-7{
+    color: black;
 }
 
 .div-4 p{
@@ -63,16 +68,41 @@ border-radius: 50%;
     font-weight: bold;
 }
 
-.div-5 {
-
+.div-8{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-left: 27px;
+    margin-top: 47px;
 }
 
-.div-6 {
-
+.div-8 input::file-selector-button, .div-8 button{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    width: 150px;
+    height: 40px;
+    margin: 2px 0;
+    color: #597445;
+    font-weight: bold;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #597445;
+    border-radius: 5px;
 }
 
-.div-7 {
+.div-8 input::file-selector-button:hover, .div-8 button:hover{
+    color: white;
+    background-color: #597445;
+}
 
+.div-8 input::file-selector-button{
+    margin-right: 15px;
+    content: "Change Image";
+}
+
+.div-8 input[type="file"]{
+    color: red;
 }
 
 footer{
