@@ -6,6 +6,7 @@
     font-family: "Plus Jakarta Sans", sans-serif;
     font-optical-sizing: auto;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html, body {

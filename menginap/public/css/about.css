@@ -1,3 +1,8 @@
+.about-anchor{
+    position: absolute;
+    margin-top: -150px;
+}
+
 .about {
     position: relative;
     width: 100vw;
