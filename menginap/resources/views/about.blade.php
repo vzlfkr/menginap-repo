@@ -1,3 +1,4 @@
+<div class="about-anchor" id="about-page"></div>
 <div class="about">
     <div class="div-1-abt">
         <h3>
