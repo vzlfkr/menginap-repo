@@ -9,12 +9,12 @@
         <div class="div-3-abt">
             <div class="div-5-abt">
                 <h1>
-                    LOREM IPSUM
+                    THE JOURNEY
                 </h1>
             </div>
             <div class="div-6-abt">
                 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies orci in ultrices maximus. Duis sodales lacus eu elit scelerisque tempor. Praesent placerat nulla et auctor molestie. Aenean sagittis molestie interdum. Nullam nec nisl sapien. Quisque cursus, est a pellentesque viverra, enim ipsum imperdiet tortor, id placerat nisl arcu nec lacus. Cras ex magna, vulputate non volutpat at, porta eget nisl. Maecenas facilisis odio eu ornare elementum. Morbi vitae elementum nisl. Morbi pellentesque, purus id ultricies tempus, velit lectus viverra purus, ut eleifend lacus felis sed ante.
+                    Our story began with a group of friends who shared a deep passion for Bali's natural beauty and vibrant culture. As we explored the island, from its emerald rice terraces to its serene beaches, we were inspired to create something special—a collection of unique stays that truly reflect the essence of Bali. Each hotel in our handpicked selection was chosen not only for its luxury and comfort but for its ability to immerse guests in the spirit of the island. We believe that every stay should be an experience, a chance to connect with Bali's traditions, landscapes, and people. Join us on this journey, and discover the magic of Bali with us—where every stay becomes a cherished story.
                 </p>
             </div>
         </div>
